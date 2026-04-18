@@ -1,10 +1,10 @@
 import type { Story, Question, Group, User } from '@/types'
 
-export const MOCK_USERS: User[] = []
+export const MOCK_USERS: User[ ] = [ ]
 
-export const MOCK_STORIES: Story[] = []
+export const MOCK_STORIES: Story[ ] = [ ]
 
-export const MOCK_QUESTIONS: Question[] = []
+export const MOCK_QUESTIONS: Question[ ] = [ ]
 
 export const MOCK_GROUPS: Group[] = [
   { id: 1, name: '1조', next_meeting_date: '2026-04-14', next_meeting_place: '중회의실', this_month_topic: '나의 역량 100% 활용법 : 지속가능성' },
